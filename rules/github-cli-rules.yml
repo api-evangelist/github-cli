@@ -1,0 +1,20 @@
+aid: github-cli:rules
+name: GitHub CLI Rules
+description: Rules and operational guidance for using the GitHub CLI (gh).
+rules:
+  - name: Authentication Required
+    description: Most commands require an authenticated session via gh auth login.
+  - name: Token Scopes
+    description: Operations are gated by the OAuth scopes granted to the active token.
+  - name: Default Host
+    description: Defaults to github.com; use --hostname or GH_HOST for GitHub Enterprise.
+  - name: Output Formats
+    description: Many commands support --json with --jq for machine-readable output.
+  - name: Editor Integration
+    description: Interactive commands open the editor defined by GH_EDITOR or VISUAL/EDITOR.
+  - name: Pager Control
+    description: Output paging is controlled by GH_PAGER and the PAGER environment variable.
+  - name: Open Source License
+    description: Distributed under the MIT License at github.com/cli/cli.
+  - name: Extensibility
+    description: Extensions live under gh-* namespace and are managed via gh extension install.

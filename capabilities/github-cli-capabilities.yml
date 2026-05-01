@@ -1,0 +1,34 @@
+aid: github-cli:capabilities
+name: GitHub CLI Capabilities
+description: Capabilities exposed by the GitHub CLI (gh) for managing GitHub from the terminal.
+capabilities:
+  - name: Authentication
+    description: Authenticate with github.com or a GitHub Enterprise Server host.
+    command: gh auth login
+  - name: Repository Management
+    description: Create, clone, fork, and view repositories.
+    command: gh repo
+  - name: Pull Request Workflows
+    description: Create, list, check out, review, and merge pull requests.
+    command: gh pr
+  - name: Issue Management
+    description: Create, list, view, comment on, and close issues.
+    command: gh issue
+  - name: GitHub Actions
+    description: View workflow runs, rerun jobs, and inspect logs.
+    command: gh run
+  - name: Releases
+    description: Create, edit, list, and download releases and assets.
+    command: gh release
+  - name: Gist Management
+    description: Create, list, view, and edit gists.
+    command: gh gist
+  - name: Codespaces
+    description: Create, list, and connect to GitHub Codespaces.
+    command: gh codespace
+  - name: GitHub API Access
+    description: Make authenticated REST and GraphQL API requests directly.
+    command: gh api
+  - name: Extensions
+    description: Install and manage gh extensions to add custom subcommands.
+    command: gh extension

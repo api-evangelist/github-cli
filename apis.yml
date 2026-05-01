@@ -10,7 +10,7 @@ tags:
 url: >-
   https://raw.githubusercontent.com/api-evangelist/github-cli/refs/heads/main/apis.yml
 created: '2026-03-25'
-modified: '2026-03-25'
+modified: '2026-04-28'
 specificationVersion: '0.19'
 apis:
   - aid: github-cli:github-cli
@@ -26,6 +26,14 @@ apis:
         url: https://cli.github.com/manual/
       - type: GitHub Repository
         url: https://github.com/cli/cli
+      - type: Capabilities
+        url: https://raw.githubusercontent.com/api-evangelist/github-cli/refs/heads/main/capabilities/github-cli-capabilities.yml
+      - type: Rules
+        url: https://raw.githubusercontent.com/api-evangelist/github-cli/refs/heads/main/rules/github-cli-rules.yml
+      - type: Source Code
+        url: https://github.com/cli/cli
+      - type: License
+        url: https://github.com/cli/cli/blob/trunk/LICENSE
 common:
   - type: Website
     url: https://cli.github.com

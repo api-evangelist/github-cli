@@ -4,15 +4,21 @@ GitHub CLI (gh) is the official command-line tool for GitHub, bringing pull requ
 
 ## APIs
 
-- [GitHub CLI](https://cli.github.com) - GitHub CLI (gh) is the official command-line tool for GitHub, bringing pull requests, issues, actions, and other GitHub features to the terminal.
+- [GitHub CLI](https://cli.github.com) - Open source command-line interface for working with GitHub from the terminal.
 
-## Common Properties
+## Properties
 
 | Property | URL |
 |----------|-----|
-| Website | https://cli.github.com |
 | Documentation | https://cli.github.com/manual/ |
-| GitHub | https://github.com/cli/cli |
+| GitHub Repository | https://github.com/cli/cli |
+| Capabilities | capabilities/github-cli-capabilities.yml |
+| Rules | rules/github-cli-rules.yml |
+| License | https://github.com/cli/cli/blob/trunk/LICENSE |
+
+## Tags
+
+Command Line Interface, Platform CLI
 
 ## Maintainers
 
