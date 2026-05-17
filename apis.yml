@@ -24,7 +24,7 @@ apis:
     properties:
       - type: Documentation
         url: https://cli.github.com/manual/
-      - type: GitHub Repository
+      - type: GitHubRepository
         url: https://github.com/cli/cli
       - type: Capabilities
         url: https://raw.githubusercontent.com/api-evangelist/github-cli/refs/heads/main/capabilities/github-cli-capabilities.yml
@@ -39,7 +39,7 @@ common:
     url: https://cli.github.com
   - type: Documentation
     url: https://cli.github.com/manual/
-  - type: GitHub Organization
+  - type: GitHubOrganization
     url: https://github.com/cli/cli
 maintainers:
   - FN: Kin Lane
