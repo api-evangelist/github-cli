@@ -47,6 +47,16 @@ apis:
       - type: License
         url: https://github.com/cli/cli/blob/trunk/LICENSE
 common:
+  - type: IssueTracker
+    url: https://github.com/cli/cli/issues
+  - type: Releases
+    url: https://github.com/cli/cli/releases
+  - type: SecurityPolicy
+    url: https://github.com/cli/cli/blob/trunk/.github/SECURITY.md
+  - type: CodeOfConduct
+    url: https://github.com/cli/cli/blob/trunk/.github/CODE-OF-CONDUCT.md
+  - type: ContributionGuide
+    url: https://github.com/cli/cli/blob/trunk/.github/CONTRIBUTING.md
   - type: Website
     url: https://cli.github.com
   - type: Documentation
