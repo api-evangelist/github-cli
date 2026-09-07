@@ -1,5 +1,5 @@
-aid: github-cli:rules
-name: GitHub CLI Rules
+x-aid: github-cli:rules
+x-name: GitHub CLI Rules
 description: Rules and operational guidance for using the GitHub CLI (gh).
 rules:
   - name: Authentication Required
