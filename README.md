@@ -66,24 +66,101 @@
 
 GitHub CLI (gh) is the official command-line tool for GitHub, bringing pull requests, issues, actions, and other GitHub features to the terminal.
 
-## APIs
+**Areas:** Command Line Interface · Platform CLI
 
-- [GitHub CLI](https://cli.github.com) - Open source command-line interface for working with GitHub from the terminal.
+## GitHub CLI on APIs.io
 
-## Properties
+Everything profiled for GitHub CLI is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/github-cli/](https://apis.io/providers/github-cli/)** — or go straight to one of the APIs or properties below.
 
-| Property | URL |
-|----------|-----|
-| Documentation | https://cli.github.com/manual/ |
-| GitHub Repository | https://github.com/cli/cli |
-| Capabilities | capabilities/github-cli-capabilities.yml |
-| Rules | rules/github-cli-rules.yml |
-| License | https://github.com/cli/cli/blob/trunk/LICENSE |
+### APIs (1)
 
-## Tags
+- [GitHub CLI](https://apis.io/apis/github-cli/github-cli/) — GitHub CLI (gh) is the official command-line tool for GitHub, bringing pull requests, issues, actions, and other GitHub features to the terminal.
 
-Command Line Interface, Platform CLI
+### Published properties
 
-## Maintainers
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-- **Kin Lane** - kin@apievangelist.com
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [GitHub CLI API Rules](https://apis.io/rules/github-cli/github-cli-rules/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Github Cli Plans Pricing](https://apis.io/plans/github-cli/github-cli-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Github Cli Rate Limits](https://apis.io/rate-limits/github-cli/github-cli-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Github Cli Finops](https://apis.io/finops/github-cli/github-cli-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://cli.github.com)
+- [Documentation](https://cli.github.com/manual/)
+- [GitHub](https://github.com/cli/cli)
+
+## API Evangelist rating
+
+**Kin Score 10.8** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 39.3 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 36.8 |
+| Developer ergonomics | 9.5 |
+| Access clarity | 7.9 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/github-cli/](https://apis.io/providers/github-cli/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for GitHub CLI: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/github-cli/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
